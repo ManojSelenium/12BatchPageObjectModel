@@ -19,6 +19,7 @@ public class CreateAccountPage extends WebElements implements CreateAccountPageP
 	public void enterFirstName(CreateUserBean bean) {
 		System.out.println("Entering First Name");
 		enterText(FIRSTNAME, bean.getFirstName());
+		System.out.println("Entered First Name");
 	}
 	public void enterLastName(CreateUserBean bean) {
 		enterText(LASTNAME, bean.getLastName());

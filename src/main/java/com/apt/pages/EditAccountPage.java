@@ -17,6 +17,7 @@ public class EditAccountPage extends WebElements implements EditAccountPageProep
 	
 	public void enterFirstName(EditUserBean bean) {
 		enterText(FIRSTNAME, bean.getFirstName());
+		System.out.println("Entering First Name");
 	}
 	public void enterLastName(EditUserBean bean) {
 		enterText(LASTNAME, bean.getLastName());
